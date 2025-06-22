@@ -6,7 +6,7 @@ This project is focused on detecting **Pneumonia** from **Chest X-Ray images** u
 
 ## 📁 Dataset
 
-We use the **Chest X-Ray Pneumonia** dataset from Kaggle:  
+I used the **Chest X-Ray Pneumonia** dataset from Kaggle:  
 🔗 [Chest X-Ray Images (Pneumonia) | Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 - The dataset includes labeled chest X-ray images:
@@ -59,7 +59,7 @@ We use the **Chest X-Ray Pneumonia** dataset from Kaggle:
 **Highlights:**
 - Used the repo: `Chest-X-Ray-Detection`
 - Converted image data into graph-structured input for GAT
-- Aimed to capture **relational dependencies** between image patches
+- Aimed to capture **relational dependencies** between image patches(used SLIC method-Simple Linear Iterative Clustering)
 - Interesting experiment showing how graph-based reasoning can be applied in medical imaging
 
 ---
@@ -73,7 +73,6 @@ We use the **Chest X-Ray Pneumonia** dataset from Kaggle:
 - Extracted:
   - **Scaled WSI (Whole Slide Image)**
   - **Image Patches**
-- Used **parallel encoders** to extract features
 - Applied a **contrastive module** for multimodal fusion
 
 🖼️ Multimodal Architecture Example:
@@ -97,18 +96,8 @@ We use the **Chest X-Ray Pneumonia** dataset from Kaggle:
 |---------------|----------|---------------------------------------------|
 | **CNN**       | **92%**  | Best model, overcame overfitting            |
 | **ResNet**    | 85%      | Transfer learning with ImageNet weights     |
-| **GNN (GAT)** | ~        | Graph-based patch learning                  |
-| **Multimodal**| ~        | Combined global & patch views with contrastive learning |
-
----
-
-## 🚀 Future Work
-
-- Improve ResNet with better augmentation, schedulers, and optimizers
-- Apply **self-supervised** or **semi-supervised** learning
-- Optimize **GNN** and **Multimodal** designs for deployment
-
----
+| **GNN (GAT)** | 82%     | Graph-based patch learning                  |
+| **Multimodal**| 83.5%       | Combined global & patch views with contrastive learning |
 
 ## 👨‍💻 Author
 
