@@ -1,3 +1,12 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Made with PyTorch](https://img.shields.io/badge/Made%20with-PyTorch-red.svg)
+![Model: CNN](https://img.shields.io/badge/Model-CNN-yellow.svg)
+![Model: ResNet](https://img.shields.io/badge/Model-ResNet-blue.svg)
+![Model: GNN](https://img.shields.io/badge/Model-GNN-purple.svg)
+![Multimodal Learning](https://img.shields.io/badge/Multimodal-Learning-pink.svg)
+[![Dataset: Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg?logo=kaggle)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
 # 🫁 Chest X-Ray Pneumonia Detection
 
 This project is focused on detecting **Pneumonia** from **Chest X-Ray images** using different deep learning architectures: **CNN**, **ResNet**, **Graph Neural Networks (GNN)**, and a **Multimodal Deep Learning** approach inspired by recent research.
