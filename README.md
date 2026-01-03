@@ -61,7 +61,7 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
 
 ---
 
-### 3️⃣ GNN (Graph Neural Network)
+###  GNN (Graph Neural Network)
 
 **Model: Graph Attention Network (GAT)**
 
@@ -73,7 +73,7 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
 
 ---
 
-### 4️⃣ Multimodal Approach (Inspired by Research Paper)
+###  Multimodal Approach (Inspired by Research Paper)
 
 🔗 [Multimodal CNN - Kaggle Notebook](https://www.kaggle.com/code/rishitkar/multimodalcnn)
 
