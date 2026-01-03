@@ -29,7 +29,7 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
 
 ### CNN (Convolutional Neural Network)
  
-** Accuracy: ~92% (Test)**
+**Accuracy: ~92% (Test)**
 
 **Highlights:**
 - Implemented a custom CNN from scratch.
