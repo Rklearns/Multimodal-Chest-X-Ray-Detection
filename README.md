@@ -48,7 +48,7 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
 
 ###  ResNet (Transfer Learning)
 
-** Accuracy: ~85% (Test)**
+**Accuracy: ~85% (Test)**
 
 **Highlights:**
 - Used **ResNet** with **ImageNet pretrained weights**.
