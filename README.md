@@ -25,11 +25,11 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 
-### 1️⃣ CNN (Convolutional Neural Network)
-
-**📈 Accuracy: ~92% (Test)**
+### CNN (Convolutional Neural Network)
+ 
+** Accuracy: ~92% (Test)**
 
 **Highlights:**
 - Implemented a custom CNN from scratch.
@@ -42,13 +42,13 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
   - **Recall**
   - **F1 Score**
 
-✅ CNN proved to be the **best performing model** in this project.
+ CNN proved to be the **best performing model** in this project.
 
 ---
 
-### 2️⃣ ResNet (Transfer Learning)
+###  ResNet (Transfer Learning)
 
-**📈 Accuracy: ~85% (Test)**
+** Accuracy: ~85% (Test)**
 
 **Highlights:**
 - Used **ResNet** with **ImageNet pretrained weights**.
@@ -84,12 +84,12 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
   - **Image Patches**
 - Applied a **contrastive module** for multimodal fusion
 
-🖼️ Multimodal Architecture Example:
+ Multimodal Architecture Example:
 ![Multimodal Architecture](Screenshot%202025-06-22%20163227.png)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python, NumPy, Pandas
 - PyTorch, TensorFlow/Keras
@@ -99,7 +99,7 @@ I used the **Chest X-Ray Pneumonia** dataset from Kaggle:
 
 ---
 
-## ✅ Results Summary
+##  Results Summary
 
 | Model         | Accuracy | Highlights                                  |
 |---------------|----------|---------------------------------------------|
